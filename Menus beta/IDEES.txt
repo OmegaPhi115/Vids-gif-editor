@@ -1,0 +1,10 @@
+- etape 2:
+	- Exporter les parametre des filtre
+	- Importateur de parametre des filter
+	- button vers fenetre de gestionaires des filtres
+
+- Gestionaire de filtre
+	- Changer l'ordre de changement (EX racourcire gif avant changer couleur)
+	-  Ajouter des filtre
+	- Retirer filtre
+	- modifier filtre
