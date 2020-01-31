@@ -1,5 +1,7 @@
 Filtres--------------------------------------------------------------------------
 
+--> Fonction, Mais serait plus pratique en OBJ --> algo qui prend fonction et crée obj contenant la fonction
+
 - Filtres sur la video
 	- Raccourcir video
 	- Inverser la video
@@ -60,4 +62,4 @@ Police: Nexa light / bolt
 	- modifier filtre
 	- Interface similaire a minecraft
 
-Changer la langue
+Changer la langue [FR,EN(,ES)]
