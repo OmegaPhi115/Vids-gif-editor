@@ -6,6 +6,8 @@ Filtres-------------------------------------------------------------------------
 	- Raccourcir video
 	- Inverser la video
 	- Changer vitesse
+	- Trouver le point ou une video recomence (boucle)
+	- "Merge" La fin et le debut pour paraitre etre en boucle
 
 - Changer le format de la video
 	- Changer pour un nombre de pixels specifiques: (x/y)
@@ -17,7 +19,7 @@ Filtres-------------------------------------------------------------------------
 				--> Trouver algos d'extention d'image
 
 			- Reduire image:
-				- Retirer pixel a coter
+				- Retirer pixel sur coter
 
 	- Convertiseur fond d'ecran ordinateur a telephone
 
