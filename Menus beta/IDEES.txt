@@ -1,3 +1,53 @@
+Filtres--------------------------------------------------------------------------
+
+- Filtres sur la video
+	- Raccourcir video
+	- Inverser la video
+	- Changer vitesse
+
+- Changer le format de la video
+	- Changer pour un nombre de pixels specifiques: (x/y)
+		- 3 modes:
+			- Agrandire image
+				- Ajouter des bandes de couleur sur les cotées
+
+			- Etendre l'image pour la valeur souhaiter
+				--> Trouver algos d'extention d'image
+
+			- Reduire image:
+				- Retirer pixel a coter
+
+	- Convertiseur fond d'ecran ordinateur a telephone
+
+	- Retirer les "Watermarks" (TODO: Traduction) / bandes sur les coters
+
+
+- Filtres jouant sur les images:  ------> [Faire une verssion du programe / Fork specialiser en images pour editer rapidement sans tout les filtre video?]
+	- Tourner l'image
+
+	- Waifu2x
+		- Agrandit images
+		- Decompresse images
+		- Peut prendre photo ou dessin
+		- Requiere une carte graphique Nvidia (CUDA)
+	
+	- Compresssion Jpeg
+		- ajoute des artifactes d'image jpeg
+		- "Deep Frying"?
+
+- Additions:
+	- Ajouter du texte par dessus
+		- Police interessantes:
+			- Arial et calibri: polices classiques
+			- Impact et Comic sans: Memes
+			- Nexa et montserra: pourquoi pas?
+
+	- Image par dessus
+
+Estetique------------------------------------------------------------------------
+
+Police: Nexa light / bolt
+
 - etape 2:
 	- Exporter les parametre des filtre
 	- Importateur de parametre des filter
@@ -5,6 +55,9 @@
 
 - Gestionaire de filtre
 	- Changer l'ordre de changement (EX racourcire gif avant changer couleur)
-	-  Ajouter des filtre
+	- Ajouter des filtre
 	- Retirer filtre
 	- modifier filtre
+	- Interface similaire a minecraft
+
+Changer la langue
