@@ -7,7 +7,11 @@ Filtres-------------------------------------------------------------------------
 	- Inverser la video
 	- Changer vitesse
 	- Trouver le point ou une video recomence (boucle)
-	- "Merge" La fin et le debut pour paraitre etre en boucle
+	- "Merge" (transition en fondu?) La fin et le debut pour paraitre etre en boucle
+	- Super slo-mo
+		- Ajoute des images intermediaire entre deux image clées
+		- /!\ Deep learning --> Gros fichier et besoin d'un bon ordinateur /!\
+		- Git: https://github.com/avinashpaliwal/Super-SloMo
 
 - Changer le format de la video
 	- Changer pour un nombre de pixels specifiques: (x/y)
@@ -23,7 +27,7 @@ Filtres-------------------------------------------------------------------------
 
 	- Convertiseur fond d'ecran ordinateur a telephone
 
-	- Retirer les "Watermarks" (TODO: Traduction) / bandes sur les coters
+	- Retirer les "Watermarks" (une barre en bas avec un logo) / bandes sur les coters
 
 
 - Filtres jouant sur les images:  ------> [Faire une verssion du programe / Fork specialiser en images pour editer rapidement sans tout les filtre video?]
@@ -33,6 +37,7 @@ Filtres-------------------------------------------------------------------------
 		- Agrandit images
 		- Decompresse images
 		- Peut prendre photo ou dessin
+		- /!\ Deep learning --> Gros fichier et besoin d'un bon ordinateur /!\
 		- Requiere une carte graphique Nvidia (CUDA)
 	
 	- Compresssion Jpeg
