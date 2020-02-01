@@ -1,17 +1,25 @@
-Filtres--------------------------------------------------------------------------
+Parametre Video------------------------------------------------------------------------------------------------
+- Changer vitesse
+
+
+Fonctions utiles-----------------------------------------------------------------------------------------------
+- Trouver le point ou une video recomence (boucle)
+
+
+Filtres--------------------------------------------------------------------------------------------------------
 
 --> Fonction, Mais serait plus pratique en OBJ --> algo qui prend fonction et crée obj contenant la fonction
 
-- Filtres sur la video
+- Filtres instantaner (Ils s'applique directement)
 	- Raccourcir video
 	- Inverser la video
-	- Changer vitesse
-	- Trouver le point ou une video recomence (boucle)
-	- "Merge" (transition en fondu?) La fin et le debut pour paraitre etre en boucle
 	- Super slo-mo
 		- Ajoute des images intermediaire entre deux image clées
 		- /!\ Deep learning --> Gros fichier et besoin d'un bon ordinateur /!\
 		- Git: https://github.com/avinashpaliwal/Super-SloMo
+
+- Filtres sur la video
+	- "Merge" (transition en fondu?) La fin et le debut pour paraitre etre en boucle
 
 - Changer le format de la video
 	- Changer pour un nombre de pixels specifiques: (x/y)
