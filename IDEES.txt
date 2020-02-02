@@ -65,16 +65,14 @@ Estetique-----------------------------------------------------------------------
 
 Police: Nexa light / bolt
 
-- etape 2:
+- Gestionaire de filtre
+	✔- Changer l'ordre de changement (EX racourcire gif avant changer couleur)
+	✔- Ajouter des filtre
+	✔- Retirer filtre
+	✔- modifier filtre
+	✔- Interface similaire a minecraft
 	- Exporter les parametre des filtre
 	- Importateur de parametre des filter
-	- button vers fenetre de gestionaires des filtres
-
-- Gestionaire de filtre
-	- Changer l'ordre de changement (EX racourcire gif avant changer couleur)
-	- Ajouter des filtre
-	- Retirer filtre
-	- modifier filtre
-	- Interface similaire a minecraft
+	✔- button vers fenetre de gestionaires des filtres
 
 Changer la langue [FR,EN(,ES)]
