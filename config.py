@@ -18,7 +18,5 @@ from pathlib import Path
 # Creation fenetre TK
 root = tk.Tk()
 maintext = Label(root, text="")
-maintext.grid(row=0,column=0)
+maintext.grid(row=0, column=0)
 root.update()
-
-

@@ -1,6 +1,6 @@
 from config import *
 
-def splitvideoimages(videopath, outputpath):
+def splitvideoimages(videopath, outputpath):  #TODO: Traduire
     """
     Load a video and extract all the frames
     :param videopath:
