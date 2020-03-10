@@ -1,6 +1,6 @@
 # Tkinter
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog as fd
 from tkinter.ttk import *
 from tkinter import constants
 
@@ -14,9 +14,11 @@ import cv2
 # Autres
 import os
 from pathlib import Path
+import ast  # String evaluation module
 
-# Creation fenetre TK
-root = tk.Tk()
-maintext = Label(root, text="")
-maintext.grid(row=0, column=0)
-root.update()
+from PyFiles.data_file import data_file
+
+import json
+
+
+
