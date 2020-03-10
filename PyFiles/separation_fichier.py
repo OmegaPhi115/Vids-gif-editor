@@ -1,4 +1,4 @@
-from config import *
+from PyFiles.imports import *
 
 def splitvideoimages(videopath, outputpath):  #TODO: Traduire
     """
