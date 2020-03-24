@@ -20,5 +20,10 @@ from PyFiles.data_file import data_file
 
 import json
 
+CODE_PATH = Path().absolute()
 
+PROJECT_FILE_DICT = {
+    "name": "",
+    "filters": []
+}
 

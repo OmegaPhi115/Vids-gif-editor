@@ -30,7 +30,17 @@ class main_menu():
         def confirm():
             if check_path(path_entry.get())[1] == 1:
                 global loop
-                # todo: Create a project folder
+                # Create a project folder
+                # path of project: CODE_PATH/Projets/NOM_DU_PROJET/
+                path_of_project = Path.joinpath(Path.joinpath(CODE_PATH, "Projects/"), name_entry.get())
+                os.makedirs(str(path_of_project))
+
+                project_file = data_file(Path.joinpath(path_of_project, name_entry.get() + ".txt"), PROJECT_FILE_DICT)
+
+                # Slice the vid
+                os.makedirs(str(Path.joinpath(path_of_project, "images")))
+
+                splitvideoimages(path_entry.get(), str(Path.joinpath(path_of_project, "images")))
 
                 subwin.destroy()
                 loop = False
@@ -47,7 +57,7 @@ class main_menu():
         info_label = tk.Label(subwin, text="")
 
         filesearch_button = tk.Button(subwin, text=">", command=path_finder)
-        ok_button = tk.Button(subwin, text="Create configuration", command=confirm)
+        ok_button = tk.Button(subwin, text="Create project", command=confirm)
         cancel_button = tk.Button(subwin, text="Cancel", command=subwin.destroy)
 
         name_entry = tk.Entry(subwin)
